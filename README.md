@@ -54,18 +54,6 @@ This app gives you a complete, real-time overview of your financial health with 
 
 ---
 
-## 📸 **Screenshots**
-
-> *(Add your app UI screenshots here)*
-
-```
-/assets/screenshots/dashboard.png  
-/assets/screenshots/transactions.png  
-/assets/screenshots/budget.png
-```
-
----
-
 ## 📦 **Installation**
 
 Clone the repository:
