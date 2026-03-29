@@ -1,0 +1,95 @@
+:root {
+  --bg-dark: #0a0a0c;
+  --bg-card: rgba(25, 27, 34, 0.7);
+  --bg-modal: #12141a;
+  --text-main: #ffffff;
+  --text-muted: #9499ad;
+  --accent-neon: #00ffa3; /* Vibrant neon green */
+  --accent-coral: #ff5e62; /* Vibrant coral */
+  --accent-glow: rgba(0, 255, 163, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide Spinners for Number Inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background-color: #000;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(0, 255, 163, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(255, 94, 98, 0.03) 0%, transparent 40%);
+  color: var(--text-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* iPhone Container - Professional & Sleek */
+.app-container {
+  width: 390px;
+  height: 844px;
+  max-height: 95vh;
+  background-color: var(--bg-dark);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 50px 100px -20px rgba(0,0,0,1);
+  border: 1px solid var(--glass-border);
+  border-radius: 44px; /* Proper iPhone corner radius */
+}
+
+@media (max-width: 400px) {
+  .app-container {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+/* Base Utility */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
