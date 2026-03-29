@@ -5,6 +5,12 @@ This app gives you a complete, real-time overview of your financial health with 
 
 Finflow Link - https://finflow-lite-v2.vercel.app/
 
+<img width="393" height="789" alt="Screenshot 2026-03-29 at 6 59 08 PM" src="https://github.com/user-attachments/assets/8fa11a44-96f8-4abe-bedb-8d3621332a69" />
+<img width="389" height="795" alt="Screenshot 2026-03-29 at 6 59 53 PM" src="https://github.com/user-attachments/assets/be3524e6-8d10-4703-80f1-36709af036aa" />
+<img width="397" height="792" alt="Screenshot 2026-03-29 at 7 00 22 PM" src="https://github.com/user-attachments/assets/f693b731-bbc2-44bb-94d3-0ece85cf7e72" />
+<img width="392" height="788" alt="Screenshot 2026-03-29 at 7 00 39 PM" src="https://github.com/user-attachments/assets/959ed156-8f67-4bba-b2d5-36fb37861514" />
+
+
 ## 🚀 **Features**
 
 ### 📊 **Unified Dashboard**
@@ -30,7 +36,7 @@ Finflow Link - https://finflow-lite-v2.vercel.app/
 
 ### 🎯 **Savings Goals**
 
-* Create custom goals like “Buy a Bike” or “Emergency Fund”
+* Create custom goals like “Buy a Car” or “Emergency Fund”
 * Track real-time progress toward each goal
 
 ### 🔐 **Secure & Private**
@@ -96,34 +102,6 @@ flutter run
 3. Start logging daily expenses
 4. Set budgets and goals
 5. Track your progress and insights on the dashboard
-
----
-
-## 🧩 **Folder Structure**
-
-```
-FinanceFlow/
- ├── assets/
- ├── lib/ (or src/)
- ├── components/
- ├── services/
- ├── utils/
- ├── README.md
- └── package.json / pubspec.yaml
-```
-
----
-
-## 🤝 **Contributing**
-
-Contributions are welcome!
-Feel free to submit a pull request or open an issue.
-
----
-
-## 📄 **License**
-
-This project is licensed under the **MIT License**.
 
 ---
 
